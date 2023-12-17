@@ -1,0 +1,23 @@
+site_name: Thetawave Wiki
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+nav:
+  - Home:
+    - home/index.md
+    - home/faq.md
+  - Items:
+    - items/index.md
+    - items/item1.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - privacy:
+      assets_fetch_dir: assets/tw
